@@ -21,7 +21,7 @@ function get_element_by_class($class) {
 }
 
 function custom_stores_carousel_shortcode($atts) {
-    $city_name = get_element_by_class('location');
+    $city_name = get_element_by_class('current-city-name');
 
     $atts = shortcode_atts(array(
         'search_city' => $city_name,
