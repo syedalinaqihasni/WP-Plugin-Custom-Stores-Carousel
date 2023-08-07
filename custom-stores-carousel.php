@@ -15,7 +15,7 @@ function get_element_by_class($class) {
     @$dom->loadHTML($content);
 
     $xpath = new DOMXPath($dom);
-    $elements = $xpath->query("//p[contains(@class, '$class')]");
+    $elements = $xpath->query("//span[contains(@class, '$class')]");
     
     return !empty($elements) ? $elements[0]->textContent : '';
 }
