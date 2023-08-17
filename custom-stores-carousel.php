@@ -3,7 +3,7 @@
 Plugin Name: Custom Stores Carousel
 Description: [wcfm_stores_carousel] Fetches city name from a class and generates a stores carousel shortcode.
 Version: 1.0
-Author: Your Name
+Author: Syed Hasni
 */
 
 function get_element_by_class($class) {
